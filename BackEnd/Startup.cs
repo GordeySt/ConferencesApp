@@ -63,6 +63,11 @@ namespace BackEnd
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapGet("/", context => {
+                    context.Response.Redirect("/swagger/");
+                    return Task.CompletedTask;
+                });
+
                 endpoints.MapControllers();
             });
         }
