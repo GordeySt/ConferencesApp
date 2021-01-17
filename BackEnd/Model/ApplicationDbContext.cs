@@ -10,6 +10,12 @@ namespace BackEnd.Model
 
         }
 
+        public DbSet<Session> Sessions { get; set; }
+
+        public DbSet<Track> Tracks { get; set; }
+
         public DbSet<Speaker> Speakers { get; set; }
+
+        public DbSet<Attendee> Attendees { get; set; }
     }
 }
