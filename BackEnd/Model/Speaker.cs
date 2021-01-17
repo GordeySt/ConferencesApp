@@ -6,18 +6,7 @@ using System.Threading.Tasks;
 
 namespace BackEnd.Model
 {
-    public class Speaker
+    public class Speaker : ConferencesDTO.Speaker
     {
-        public int Id { get; set; }
-
-        [Required]
-        [StringLength(200)]
-        public string Name { get; set; }
-
-        [StringLength(2000)]
-        public string Bio { get; set; }
-
-        [StringLength(1000)]
-        public virtual string WebSite { get; set; }
     }
 }
