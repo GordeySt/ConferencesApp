@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ConferencesDTO
 {
-    class Attendee
+    public class Attendee
     {
         public int Id { get; set; }
 
