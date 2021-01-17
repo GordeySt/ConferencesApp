@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ConferencesDTO
+﻿namespace ConferencesDTO
 {
     public class Class1
     {
